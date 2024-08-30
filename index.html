@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Avaliação de Aprovação Escolar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tela">
+      <div class="bloco">
+        <div class="bloco-titulo">
+          <h1 class="titulo">
+            Sistema de Avaliação <br />
+            de Aprovação Escolar
+          </h1>
+        </div>
+        <div class="entradas">
+          <input
+            id="presenca"
+            class="input"
+            type="number"
+            placeholder="Presença"
+          />
+          <input
+            id="nota"
+            class="input"
+            type="number"
+            placeholder="Nota Final"
+          />
+          <div class="bloco-botao">
+            <button class="botao" onclick="calcular()">calcular</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="java.js"></script>
+</html>

@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tela {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(93, 209, 209);
+}
+
+.bloco {
+  background-color: rgb(89, 219, 236);
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 550px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.titulo {
+  color: rgb(10, 90, 86);
+}
+
+.imagem {
+  height: 70px;
+  width: 90px;
+}
+
+.input {
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: rgb(93, 209, 209);
+  border-style: none;
+  border: 1px solid black;
+}
+
+input::placeholder {
+  color: rgb(10, 90, 86);
+}
+
+.botao {
+  padding: 8px;
+  background-color: rgb(93, 209, 209);
+  border-style: none;
+  border: 1px solid black;
+  color: rgb(10, 90, 86);
+  text-align: center;
+}
